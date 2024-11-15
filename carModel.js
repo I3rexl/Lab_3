@@ -6,14 +6,17 @@ const CarSchema= new mongoose.Schema({
         require: true
     },
     namSX:{
-        type: Number
+        type: Number,
     },
     hang:{
         type: String,
         require: true
     },
     gia:{
-        type: Number
+        type: Number,
+    },
+    anh:{
+        type: String,
     }
 });
 
